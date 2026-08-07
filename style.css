@@ -114,6 +114,8 @@ header .container { display: flex; justify-content: space-between; align-items: 
 .logo { display: flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem; color: white; text-decoration: none; }
 .logo i { color: var(--primary); font-size: 1.75rem; transition: var(--transition); }
 .logo:hover i { transform: rotate(15deg); filter: drop-shadow(0 0 8px var(--primary)); }
+.brand-logo { height: 40px; width: 40px; object-fit: cover; border-radius: 50%; border: 2px solid var(--primary); transition: var(--transition); }
+.logo:hover .brand-logo { transform: scale(1.1); box-shadow: 0 0 12px var(--primary); }
 nav { display: flex; gap: 32px; }
 nav a { color: var(--text-muted); text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: var(--transition); }
 nav a:hover, nav a.active { color: white; text-shadow: 0 0 10px rgba(255,255,255,0.4); }
