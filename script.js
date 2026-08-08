@@ -116,8 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const counterTotal = document.getElementById('gallery-total');
 
     const images = [
-        'assets/mei-print-1.png',
-        'assets/mei-print-2.png'
+        'assets/omni-print-1.png',
+        'assets/omni-print-2.png',
+        'assets/omni-print-3.png',
+        'assets/omni-print-4.png',
+        'assets/omni-print-5.png'
     ];
     let currentIndex = 0;
 
